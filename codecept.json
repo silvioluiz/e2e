@@ -1,0 +1,24 @@
+{
+  "tests": "./*_test.js",
+  "timeout": 10000,
+  "output": "./output",
+  "helpers": {
+    "Protractor": {
+      "url": "http://juliemr.github.io/protractor-demo",
+      "driver": "hosted",
+      "browser": "chrome",
+      "rootElement": "body"
+    }
+  },
+  "include": {
+    "I": "./steps_file.js"
+  },
+  "bootstrap": false,
+  "mocha": {
+    "reporterOptions": {
+        "reportDir": "reports"
+    }
+  },
+  "name": "e2e",
+  "translation": "pt-BR"
+}

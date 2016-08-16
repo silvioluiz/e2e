@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mochawesome Report Card</title>
+    
+    <link rel="stylesheet" href="css/mochawesome.css">
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="report-info-cnt">
+          <h1 class="report-title">protractor_test</h1>
+          <h3 class="report-date">Friday, August 12 2016, 01:36pm</h3>
+        </div>
+        <div class="nav-right">
+          <div class="quick-summary-cnt">
+              <ul class="list-unstyled quick-summary">
+                <li class="qs-item summary-duration" title="Duration">17.826<span>S</span></li>
+                <li class="qs-item summary-suites" title="Suites">2</li>
+                <li class="qs-item summary-tests" title="Tests">5</li>
+                <li class="qs-item summary-passes" title="Passed" data-filter="passed">4</li>
+                <li class="qs-item summary-failures" title="Failed" data-filter="failed">1</li>
+                <li class="qs-item summary-pending" title="Pending" data-filter="pending">0</li>
+              </ul>          </div>
+          <button class="nav-menu-btn open-menu"><i class="icon-menu"></i></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Report Summary -->
+    <div class="summary">
+      <div class="container">
+          <div class="row">
+            <div class="summary-col summary-duration">
+              <h1 class="summary-count">17.826<span>S</span></h1>
+              <h4 class="summary-label">S</h4>
+            </div>
+            <div class="summary-col summary-suites" title="Suites">
+              <h1 class="summary-count">2</h1>
+              <h4 class="summary-label">Suites</h4>
+            </div>
+            <div class="summary-col summary-tests" title="Tests">
+              <h1 class="summary-count">5</h1>
+              <h4 class="summary-label">Tests</h4>
+            </div>
+            <div class="summary-col summary-passes" data-filter="passed" title="Passed">
+              <h1 class="summary-count">4</h1>
+              <h4 class="summary-label">Passed</h4>
+            </div>
+            <div class="summary-col summary-failures" data-filter="failed" title="Failed">
+              <h1 class="summary-count">1</h1>
+              <h4 class="summary-label">Failed</h4>
+            </div>
+            <div class="summary-col summary-pending" data-filter="pending" title="Pending">
+              <h1 class="summary-count">0</h1>
+              <h4 class="summary-label">Pending</h4>
+            </div>
+          </div>      </div>
+    </div>
+    <div class="statusbar">
+      <div class="container">
+          <div class="row">
+            <div class="status-item status-item-pending-pct">0% Pending</div>
+            <div class="status-item status-item-passing-pct success">80% Passing</div>
+          </div>      </div>
+    </div>
+
+    <!-- Suites -->
+    <div class="details container">
+            <section class="suite-wrap">
+          <div id="bea6430f-a5b9-45bb-83af-282b57f50fff" class="suite has-tests has-passed has-failed">
+            <h3 class="suite-title">Somar</h3>
+            <h5 class="suite-filename">\calculadora_soma_test.js</h5>
+            <!-- Suite Chart -->
+            <div class="suite-chart-wrap">
+              <canvas id="bea6430f-a5b9-45bb-83af-282b57f50fff" class="suite-chart" width="50" height="50" data-total-passes="2" data-total-failures="1" data-total-pending="0" data-total-skipped="0"></canvas>
+            </div>
+            <div class="suite-data-wrap">
+              <!-- Suite Summary -->
+              <ul class="suite-summary list-unstyled">
+                <li class="suite-summary-item duration">11.451 s</li>
+                <li class="suite-summary-item tests">3</li>
+                <li class="suite-summary-item passed">2</li>
+                <li class="suite-summary-item failed">1</li>
+                <li class="suite-summary-item pending">0</li>
+              </ul>
+              <!-- Test Info -->
+              <div class="suite-test-wrap">
+                <div class="suite-test-header" data-toggle="collapse" data-target="#bea6430f-a5b9-45bb-83af-282b57f50fff-test-list">
+                  <h4 class="suite-test-header-title">Tests</h4>
+                </div>
+                <div id="bea6430f-a5b9-45bb-83af-282b57f50fff-test-list" class="list-group test-list collapse in">
+                    <div id="7743ce3c-6281-4014-994c-5cf1e18734be" class="list-group-item test failed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              Somar com sucesso
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#7743ce3c-6281-4014-994c-5cf1e18734be > .test-code.collapse">Code</button>
+              <span class="test-duration ">5.732 s</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+            <p class="test-error-message">Error: Wait timed out after 2027ms
+              <button class="btn btn-link btn-sm toggle-btn toggle-stack collapsed" data-toggle="collapse" data-target="#7743ce3c-6281-4014-994c-5cf1e18734be > .test-error-stack.collapse">Stack</button>
+            </p>
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">I.amOnPage(<span class="hljs-string">'/'</span>);<br>I.amInsideAngularApp();<br>I.fillField({model: <span class="hljs-string">'first'</span>}, <span class="hljs-number">3</span>);<br>I.selectOption({model:<span class="hljs-string">'operator'</span>},<span class="hljs-string">'+'</span>);<br>I.fillField({model: <span class="hljs-string">'second'</span>}, <span class="hljs-number">5</span>);<br>I.pressKey(<span class="hljs-string">'Enter'</span>);<br>I.waitForText(<span class="hljs-number">7</span>, <span class="hljs-number">2</span>, <span class="hljs-string">'h2'</span>);	<br>I.saveScreenshot(<span class="hljs-string">'somaComsucesso.png'</span>);</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+          <div class="test-error-stack collapse">
+            <pre><code class="hljs small">Wait timed out after <span class="hljs-number">2027</span>ms<br><br>Scenario Steps:<br><br>- Eu.aguardoPorTexto(<span class="hljs-number">7</span>, <span class="hljs-number">2</span>, <span class="hljs-string">"h2"</span>) at Test.&lt;anonymous&gt; (c:\Ambiente\e2e\protractor_test\calculadora_soma_test.js:<span class="hljs-number">11</span>:<span class="hljs-number">4</span>)<br>- Eu.pressioneATecla(<span class="hljs-string">"Enter"</span>) at Test.&lt;anonymous&gt; (c:\Ambiente\e2e\protractor_test\calculadora_soma_test.js:<span class="hljs-number">10</span>:<span class="hljs-number">4</span>)<br>- Eu.preenchoOCampo({<span class="hljs-string">"model"</span>:<span class="hljs-string">"second"</span>}, <span class="hljs-number">5</span>) at Test.&lt;anonymous&gt; (c:\Ambiente\e2e\protractor_test\calculadora_soma_test.js:<span class="hljs-number">9</span>:<span class="hljs-number">4</span>)<br>- Eu.selecionoAOpcao({<span class="hljs-string">"model"</span>:<span class="hljs-string">"operator"</span>}, <span class="hljs-string">"+"</span>) at Test.&lt;anonymous&gt; (c:\Ambiente\e2e\protractor_test\calculadora_soma_test.js:<span class="hljs-number">8</span>:<span class="hljs-number">4</span>)<br>- Eu.preenchoOCampo({<span class="hljs-string">"model"</span>:<span class="hljs-string">"first"</span>}, <span class="hljs-number">3</span>) at Test.&lt;anonymous&gt; (c:\Ambiente\e2e\protractor_test\calculadora_soma_test.js:<span class="hljs-number">7</span>:<span class="hljs-number">4</span>)<br>- Eu.estouNaAplicacaoAngular() at Test.&lt;anonymous&gt; (c:\Ambiente\e2e\protractor_test\calculadora_soma_test.js:<span class="hljs-number">6</span>:<span class="hljs-number">4</span>)<br>- Eu.estouNaPagina(<span class="hljs-string">"/"</span>) at Test.&lt;anonymous&gt; (c:\Ambiente\e2e\protractor_test\calculadora_soma_test.js:<span class="hljs-number">5</span>:<span class="hljs-number">4</span>)<br><br></code></pre>
+          </div>
+        </div>            <div id="f380b39b-9bfb-4b51-8154-36f0767e0b69" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              Somar com todos os operandos
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#f380b39b-9bfb-4b51-8154-36f0767e0b69 > .test-code.collapse">Code</button>
+              <span class="test-duration slow">2.918 s</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">I.amOnPage(<span class="hljs-string">'/'</span>);<br>I.amInsideAngularApp();<br>I.fillField({model: <span class="hljs-string">'first'</span>}, <span class="hljs-number">3</span>);<br>I.selectOption({model:<span class="hljs-string">'operator'</span>},<span class="hljs-string">'+'</span>);	<br>I.click(<span class="hljs-string">'Go'</span>);<br>I.waitForText(<span class="hljs-literal">NaN</span>, <span class="hljs-string">'h2'</span>);	<br>I.saveScreenshot(<span class="hljs-string">'somaComTodosOsOperandos.png'</span>);</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="07940161-51ea-4943-8f1e-c7b8d17052c9" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              Somar apenas com números
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#07940161-51ea-4943-8f1e-c7b8d17052c9 > .test-code.collapse">Code</button>
+              <span class="test-duration slow">2.801 s</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">I.amOnPage(<span class="hljs-string">'/'</span>);<br>I.amInsideAngularApp();<br>I.fillField({model: <span class="hljs-string">'first'</span>}, <span class="hljs-number">3</span>);<br>I.selectOption({model:<span class="hljs-string">'operator'</span>},<span class="hljs-string">'+'</span>);	<br>I.fillField({model: <span class="hljs-string">'second'</span>}, <span class="hljs-string">'@'</span>);<br>I.click(<span class="hljs-string">'Go'</span>);<br>I.waitForText(<span class="hljs-literal">NaN</span>,<span class="hljs-string">'h2'</span>);<br>I.saveScreenshot(<span class="hljs-string">'somaApenasComNumeros.png'</span>);</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>        </div>
+              </div>
+            </div>
+        
+        
+          </div>
+        </section>
+            <section class="suite-wrap">
+          <div id="47efde30-6355-4817-a01b-1d71b1b33b1d" class="suite has-tests has-passed">
+            <h3 class="suite-title">Subtrair</h3>
+            <h5 class="suite-filename">\calculadora_subtraicao_test.js</h5>
+            <!-- Suite Chart -->
+            <div class="suite-chart-wrap">
+              <canvas id="47efde30-6355-4817-a01b-1d71b1b33b1d" class="suite-chart" width="50" height="50" data-total-passes="2" data-total-failures="0" data-total-pending="0" data-total-skipped="0"></canvas>
+            </div>
+            <div class="suite-data-wrap">
+              <!-- Suite Summary -->
+              <ul class="suite-summary list-unstyled">
+                <li class="suite-summary-item duration">5.502 s</li>
+                <li class="suite-summary-item tests">2</li>
+                <li class="suite-summary-item passed">2</li>
+                <li class="suite-summary-item failed">0</li>
+                <li class="suite-summary-item pending">0</li>
+              </ul>
+              <!-- Test Info -->
+              <div class="suite-test-wrap">
+                <div class="suite-test-header" data-toggle="collapse" data-target="#47efde30-6355-4817-a01b-1d71b1b33b1d-test-list">
+                  <h4 class="suite-test-header-title">Tests</h4>
+                </div>
+                <div id="47efde30-6355-4817-a01b-1d71b1b33b1d-test-list" class="list-group test-list collapse in">
+                    <div id="1eb46eaf-57ab-42ae-9bdf-bed9d3975068" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              gerando valor positivo
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#1eb46eaf-57ab-42ae-9bdf-bed9d3975068 > .test-code.collapse">Code</button>
+              <span class="test-duration slow">2.811 s</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">I.amOnPage(<span class="hljs-string">'/'</span>);<br>I.amInsideAngularApp();<br>I.fillField({model: <span class="hljs-string">'first'</span>}, <span class="hljs-number">986</span>);<br>I.selectOption({model:<span class="hljs-string">'operator'</span>},<span class="hljs-string">'-'</span>);<br>I.fillField({model: <span class="hljs-string">'second'</span>}, <span class="hljs-number">86</span>);<br>I.pressKey(<span class="hljs-string">'Enter'</span>);<br>I.waitForText(<span class="hljs-number">900</span>, <span class="hljs-string">'h2'</span>);<br>I.saveScreenshot(<span class="hljs-string">'subtracaoComsucesso.png'</span>);</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="dca9004b-4b9e-434a-b306-aba5ad0d9269" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              gerando valor negativo
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#dca9004b-4b9e-434a-b306-aba5ad0d9269 > .test-code.collapse">Code</button>
+              <span class="test-duration slow">2.691 s</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">I.amOnPage(<span class="hljs-string">'/'</span>);<br>I.amInsideAngularApp();<br>I.fillField({model: <span class="hljs-string">'first'</span>}, <span class="hljs-number">10</span>);<br>I.selectOption({model:<span class="hljs-string">'operator'</span>},<span class="hljs-string">'-'</span>);<br>I.fillField({model: <span class="hljs-string">'second'</span>}, <span class="hljs-number">35</span>);<br>I.pressKey(<span class="hljs-string">'Enter'</span>);<br>I.waitForText(-<span class="hljs-number">25</span>, <span class="hljs-string">'h2'</span>);<br>I.saveScreenshot(<span class="hljs-string">'subtracaoResultadoNegativo.png'</span>);</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>        </div>
+              </div>
+            </div>
+        
+        
+          </div>
+        </section>
+    </div>
+
+    <footer>
+      <div class="container">
+        <p>Report generated by <a href="http://adamgruber.github.io/mochawesome/" target="_blank">mochawesome</a>.<br>Designed and built by <a href="https://github.com/adamgruber" target="_blank">adamgruber</a>. &copy;2016.</p>
+      </div>
+    </footer>
+
+    <!-- Nav Menu -->
+    <div class="nav-menu-wrap">
+      <div class="menu-overlay close-menu"></div>
+      <nav class="menu">
+        <button class="nav-menu-btn close-menu"><i class="icon-failed"></i></button>
+        <ul class="list-unstyled main-menu">
+                <li class="nav-menu-item">
+                <a href="#bea6430f-a5b9-45bb-83af-282b57f50fff" class="nav-menu-item-link has-failures">Somar</a>
+            </li>
+                <li class="nav-menu-item">
+                <a href="#47efde30-6355-4817-a01b-1d71b1b33b1d" class="nav-menu-item-link has-passes">Subtrair</a>
+            </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/vendor.js"></script>
+    <script src="js/mochawesome.js"></script>
+  </body>
+</html>
