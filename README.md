@@ -88,7 +88,7 @@ $ codeceptjs run --reporter mochawesome
 
 O relatório terá aparência semelhante ao da imagem abaixo:
 
-![Relatório Mochawesome]("Mochawesome.png")
+![Relatório Mochawesome](Mochawesome.png)
 
 [CodeceptJS]: <codecept.io>
 [Protractor]: <protractortest.org>
