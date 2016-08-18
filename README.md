@@ -2,7 +2,7 @@
 Repositório pra validação de conceito do ConceptJS
 
 Este repositório visa de forma objetiva demonstrar uma configuração mínima pra execução de testes de aceitação(conhecido em algumas circunstâncias como e2e) usando 
-a biblioteca alto nível CodeceptJS, usando o helper para trabalhar com Protractor.
+a biblioteca alto nível CodeceptJS, usando como helper o Protractor. A aplicação de teste é a [Super Calculator], usada como demo do Protractor.
 
 Mais informações a respeito:
 
@@ -12,7 +12,7 @@ Mais informações a respeito:
 
 ### Executando os testes
 
-Considerando que você tem o NodeJS instalado em sua máquina (4.2+), Instale globalmente o codeceptjs:
+Considerando que você tem o NodeJS instalado em sua máquina (4.2+), instale globalmente o codeceptjs:
 
 ```sh
 $ [sudo] npm install -g codeceptjs
@@ -33,7 +33,7 @@ Com todos os pré-requisitos intalados, inicialize em outro console o webdriver 
 $ webdriver-manager update
 ```
 
-E execute os testes a partir da pasta raiz do projeto: 
+O servidor selenium será iniciado na porta 4444. Agora execute os testes a partir da raiz do projeto: 
 
 ```sh
 $ codeceptjs run --steps
@@ -93,3 +93,4 @@ O relatório terá aparência semelhante ao da imagem abaixo:
 [CodeceptJS]: <codecept.io>
 [Protractor]: <protractortest.org>
 [Mochawesome]: <https://github.com/adamgruber/mochawesome>
+[Super Calculator]: <http://juliemr.github.io/protractor-demo>
