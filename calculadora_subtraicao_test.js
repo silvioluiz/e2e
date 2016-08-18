@@ -6,7 +6,7 @@ Before((I) => {
 });
 
 Scenario('gerando valor positivo', (I) => {
-	I.amOnPage('/');	
+	I.amOnPage('/');
 	I.fillField({model: 'first'}, 986);
 	I.selectOption({model:'operator'},'-');
 	I.fillField({model: 'second'}, 86);
