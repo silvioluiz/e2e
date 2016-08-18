@@ -90,6 +90,13 @@ O relatório terá aparência semelhante ao da imagem abaixo:
 
 ![Relatório Mochawesome](Mochawesome.png)
 
+### TODO
+
+* Inclusão de Implementação utilizando SeleniumDriver pra aplicações Web comuns (JSP, ASP, JSF, Html)
+* Explicação sobre uso do PhantomJS x Selenium
+* Construção de testes mais específicos na aplicação Demo.
+
+
 [CodeceptJS]: <codecept.io>
 [Protractor]: <protractortest.org>
 [Mochawesome]: <https://github.com/adamgruber/mochawesome>
