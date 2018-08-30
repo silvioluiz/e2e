@@ -97,7 +97,7 @@ O relatório terá aparência semelhante ao da imagem abaixo:
 * Construção de testes mais específicos na aplicação Demo.
 
 
-[CodeceptJS]: <codecept.io>
-[Protractor]: <protractortest.org>
+[CodeceptJS]: <http://codecept.io>
+[Protractor]: <http://protractortest.org>
 [Mochawesome]: <https://github.com/adamgruber/mochawesome>
 [Super Calculator]: <http://juliemr.github.io/protractor-demo>
